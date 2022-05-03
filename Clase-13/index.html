@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/JS/main.js"></script>
+</head>
+<body>
+    Sumas con funcione en JS y CONST arrow: <br>
+    <input type="button" value="suma 1" onclick="javascript:alert(add1(1, 3));">
+    <input type="button" value="suma 2" onclick="javascript:alert(add2(1, 4));">
+    <input type="button" value="suma 3" onclick="javascript:alert(add3(1, 5));">
+
+
+    <hr>
+    Pasando valores:
+        <form action="">
+            <input type="text" name="value1" id="value1" placeholder="Ingrese un valor" >
+            <input type="text" name="value2" id="value2" placeholder="Ingrese un valor" >
+            <br>
+            <input type="button" value="sumar" onclick="javascript:alert(add3(document.getElementById('value1').value,document.getElementById('value2').value));">
+            <input type="button" value="sumar2" onclick="javascript:alert(add3(value1.value,value2.value));">
+            <hr>
+            Suma de los valores pasados en distintos formatos
+            <br>
+            <input type="button" value="sumar3 (div)" onclick="addReturnDiv(value1.value,value2.value);">
+            <br>
+            <input type="button" value="Suma 4 (Div + formato 1)" onclick="addReturnDivFormat1(value1.value,value2.value);">
+            <br>
+            <input type="button" value="Suma 5 (Div + formato 2)" onclick="addReturnDivFormat2(value1.value,value2.value);">
+            <hr>
+            <pre>
+                <div id="result"></div>
+            </pre>
+        </form>
+    </hr>
+</body>
+</html>
