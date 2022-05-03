@@ -1,0 +1,60 @@
+/* MARGENES */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* Color del body o color del fondo y las letras*/
+body{ background: #0ac9eb;
+color: #ffff;
+}
+
+/* header */
+header { 
+    height: 120px;
+    background: #000000;
+}
+/* propiedades a header */ 
+header h1 {
+    font-size: 50px;
+    text-align: center;
+    line-height: 80px;
+}
+
+/* MENU */ 
+nav {
+    background: #686d80;
+    height: 10px;
+    float: left;
+    width: 150px; /* ancho */
+    height: 600px; /* alto  */
+    padding: 20px;
+}
+nav h2 {
+    font-size: 50px;
+    text-align: center;
+    line-height: 60px
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* contenido */ 
+article {
+    padding: 90px;
+    width: 300;
+    height: 450px;
+    background-color: #042bed;
+
+  }
+
+
+/* footer */
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    clear: left;
+  }
+

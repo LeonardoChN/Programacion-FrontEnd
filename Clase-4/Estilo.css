@@ -1,0 +1,50 @@
+/* Que es el URL?? */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    
+body {
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-size: x-large;
+    color:blue;
+    
+}
+#capa1{
+    border:1px;             
+    border-color: rgb(81, 255, 0);
+    border-width: 5px;
+    border-style: solid;
+    width: 50%; /*Ancho*/
+    height: 250px; /* Alto */
+    padding: 5px;
+    background-color: rgb(4, 91, 221);
+    background-image: url('');
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: cover;             
+    border-radius: 5px;     
+}
+#capa2{
+    border:1px;
+    border-color: rgba(167, 103, 103, 0.925);
+    border-width: 10px;
+    border-style: solid;
+    width: 51%;
+    height: 250%;
+    padding: 2px;
+    /* color del fondo */
+    background-color: #15f8b4;
+
+    /* Background con imagenes */
+    background-image: url('');
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Bordes redondos */
+    border-radius: 100px;
+    
+
+
+}

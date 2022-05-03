@@ -1,0 +1,38 @@
+/* formularios */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+.Contact-form{
+    font-family: 'Lato', sans-serif;
+    width: 500px;
+}
+/* la > Sirve para decir que, control-group se encuentra dentro de contac form*/
+
+.Contact-form>.Control-group {
+    width: 100%;
+}
+
+.Contact-form>.Control-group>label{
+    margin-bottom: 10px;
+    width: 100%;
+}
+.Contact-form>.Control-group>input[type=text]{
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;  
+}
+
+.Contact-form>.Control-group>input[type=submit]{
+    border: 1px solid blue;
+    background-color:  lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    /*  si el boton usa el 80% quedan 20% y para centrarlo usamos el margen en cada lado para dejarlo centrado*/
+
+}

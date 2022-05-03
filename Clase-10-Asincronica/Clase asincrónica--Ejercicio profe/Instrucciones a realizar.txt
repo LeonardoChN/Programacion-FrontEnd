@@ -1,0 +1,16 @@
+Esto debe ser diseñado considerando el uso de HTML y CSS, a continuación, se detallan los requerimientos.
+
+•	El sitio considera el uso del Font Robo disponible en Google Fonts
+•	No considerar Tables para la estructura del sitio
+•	Para el header considerar la siguiente imagen (logos-big-2019090615.jpg-1300.jpg (900×900) (edit.org)).
+•	El texto del título en el header es un elemento h3.
+•	El color para el borde bajo del header es #C5BAAF.
+•	El color de fondo para el siderbar es #E1CE7A.
+•	El color los cuadros para cada elemento del menú es:
+o	Fondo: #C5BAAF
+o	Texto: #424B54
+•	El elemento usuado para el título del contenido en un h3.
+•	Para el footer se considera un color de fondo #424B54.
+•	Para el texto del footer se considera lo siguiente:
+o	Tamaño fuente: 10px.
+o	Color. #FFFFFF

@@ -1,0 +1,114 @@
+extencion one dark pro
+
+[ejemplo]
+algoritmo evolutivo 
+abejitas llegando al panal
+---------------------------------
+el juego de la vida en html, css y js
+celula hecho con vector que se reproduce y hay una celula a su lado y muere si hay muchas celulas 
+------------------------------------
+salto de linea en word 
+enter
+shift enter
+control enter
+
+
+
+
+
+
+
+
+
+---------------- HTML --------------------------
+definiciones de etiquetas basicas
+etiqueta <p> : en su interior hay un PARRAFO </P>
+
+que es un lorem, es un texto de prueba
+
+Etiqueta br: salto de linea
+
+Eiqueta HR: salto de linea con linea
+
+Etiqueta B: para negritas, se tiene que encerrar el texto en negrita <b> hola </b>
+Etiqueta Strong: negritas igual
+
+Etiqueta i : Cursiva
+
+Etiqueta u : subrayado
+
+Etriqueta pre: texto pre formateado
+
+(p*5) lenguaje Emett 
+------------------------------------------------------------------
+LISTAS:
+
+(orden list: numeritos)
+etiqueta Ol: para dar inicio y final de la lista 
+atributo en ol: <ol type=" [] " start = []> (Inicio de la lista)
+-A: con letras en mayusculas (A,B,C,D)
+-a: con letras en minusculas (a,b,c,d)
+-1: con numeros
+-i: con numeros romanos en minusculas
+-I: con numeros romanos en mayusculas
+
+
+etiqueta li: elementos de la lista (list item)
+
+etiqueta ul: sin dorden (Unordered list)
+atributo: <ul type=""> circle, square, disc, bullet
+
+
+# Se le pueden agregasr id a las etiqueta 
+eje <p id="parrafo 1">
+
+
+dl: definition list
+dd: term description
+
+----------------------------------------------------------------------
+TABLAS
+
+table>
+atributo a la tabla border = 1
+<th>: cabeceras
+<tr>: columnas
+<td>: celda cualquiera de la tablas
+
+
+
+------------------------------------------------------------------
+IMAGEN
+etiqueta img: la imagen siempre debe ir con el src
+<img src="http://"> 
+atributos:
+width:"50" (ancho)
+alt: alternativa (si no carga la imagen)
+
+al poner imagen que esta en el equipo
+. = quiere decir la carpeta actual
+.. = carpeta atras 
+./[Nombre carpeta]
+
+
+----------------------------------------
+LINK
+<a href=""> : Este es el link con la referencia de la pagina
+atributo href:
+target="_blank"
+
+<!-- comentario -->
+
+----------------------------------------
+TAMAÑOS 
+
+h1 mas grande 
+h6 mas pequeño
+
+----------------------------------------
+VIDEO
+como mejorabilidad se deben bajar los videos
+
+atributos:
+width="500" para aumentar el tamaño
+y control para poder reproducir el video

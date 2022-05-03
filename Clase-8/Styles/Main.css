@@ -1,0 +1,36 @@
+/* borrar el borde a la toda la pagina */
+body{
+    margin: 0;
+}
+
+.Main-header {
+    background-color: red;
+    height: 150px /* VH [Otra unidad de medida]*/;
+    width: 100%;
+}
+
+.Side-bar {
+    background-color: green;
+    height: 500px;
+    width: 10%;
+    float: left;
+}
+/* despues de los " : " se puede atribuir un evento*/
+/* cambiaremos el color del side-bar*/
+.Side-bar:hover{
+    background-color: rgb(21, 241, 205);
+}
+
+.Main-content{
+    background-color: blue;
+    height: 500px;
+    width: 90%;
+    float: left;
+}
+.Main-footer{
+    background-color: yellow;
+    height: 120px;
+    width: 100%;
+    float: left;
+
+}

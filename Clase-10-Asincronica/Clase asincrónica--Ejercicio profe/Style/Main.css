@@ -1,0 +1,77 @@
+/* Importacion de la fuente */ 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Modificacion del Layout*/
+body {
+    font-family: 'Roboto',sans-serif;
+    border: 0;
+    margin: 0;
+}
+/*--------------------------*/
+
+/* Aca se llamaran con # debido a que estan con ID y no con CLASS que se llaman con "."*/
+#Main-header{
+    border-bottom: 1px solid #C5BAAF; /*borde debajo del header*/
+    overflow: hidden; /* permite regular la visiblidad de los contenidos que sobresalen de una caja html*/ 
+    height: 15vh; /* Unidad VIWEPORT-HEIGHT = altura de la ventana (son de 0 - 100)*/
+}
+#Main-header>img{ /* Modificacion de la imagen*/
+    width: 110px;
+    float: left;
+} 
+#Main-header>h3{
+    float: left;
+    display:block;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+/* --------------*/
+
+#Main-siede-bar{
+    background-color: #E1CE7A;
+    height:70vh;
+    width:25%;
+    float: left;
+}
+#Main-siede-bar>ul{
+    list-style-type: none;
+    padding-left:0; /* lo deja pegado a la izquierda*/
+}
+#Main-siede-bar>ul>li{
+    margin-bottom: 5px; /*Separacion de cada li */
+}
+#Main-siede-bar>ul>li>a{
+    background-color: #C5BAAF;
+    color:#424B54 ;
+    display: block; /* coloca fijo el tamaño del color */ 
+    text-decoration:none;
+    padding: 5px; /* Grosor de cada menu */
+}
+
+/*-----------------*/
+#Main-content{
+    height:70vh;
+    width:71%;
+    float:right;
+    padding-left:2%;
+    padding-right: 2%;
+
+}
+
+#Main-footer{
+    text-align: center;
+    font-size: small; /* Letra pequeña */
+    background-color: #424B54;
+    clear: both; /* Para que solo se vea el color en el footer */
+    height: 15vh;
+    /* letra */ 
+    font-size: 10px;
+    color:  #FFFFFF;
+}
+#Main-footer>ul{ 
+    list-style: none; /*quitar los puntos de la lista */
+    padding-top: 20px;
+}
+#Main-footer>ul>li{
+    margin-top: 5px;
+}

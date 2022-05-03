@@ -1,0 +1,16 @@
+/* google fonts para usar las fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
+/*  hay que llamar a la letra */
+
+
+body {
+    /* aca se llama a la fuente*/
+    font-family: 'Palette Mosaic', cursive;
+    background-color: lightgray;
+}
+
+.Header {
+    /* solid: definir el estilo de la linea del borde || dotted (con puntitos) */
+    border: 1px solid red;
+
+}

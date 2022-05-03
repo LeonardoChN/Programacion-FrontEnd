@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+body{
+    margin:0;
+    font-family:Poppins;
+    font-size: 12px;
+    color:  #000000;
+}
+/*HEADER*/
+#Main-header{
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #AAAAAA; /*borde debajo del header*/
+    overflow: hidden;
+    height: 10vh;
+    width:100%;
+}
+#Main-header>img{
+    width: 150px;
+    float: left;
+} 
+#Main-header>p{
+    float: right;
+    display:block;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+/* Menu */ 
+#Main-siede-bar{
+    background-color: #F9F9F9;
+    height:40px;
+    width:100%;
+    border-bottom: 1px solid #AAAAAA;
+    display: block;
+}
+#Main-siede-bar>a{
+    background-color: #ECECEC;
+    color: #000000;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+/* Contenido */
+#Main-content{
+    background-color: #FAFAFA;
+    height:70vh;
+    width:95%;
+    float:left;
+    padding-left:4%;
+    padding-right:1%;
+}
+
+#Main-content>p{
+    float:left;
+}
+#Main-content>p>img{
+    height:50px;
+    float:left;
+}
+
+
+/* FOOTER */
+#Main-footer{
+    border-top: 1px solid #AAAAAA;
+    border-bottom: 1px solid #AAAAAA;
+    text-align: center;
+    background-color: #FFFFFF;
+    clear: both; /* Para que solo se vea el color en el footer */
+    height: 13vh;
+    /* letra */ 
+    font-size: 10px;
+    color:  #000000;
+}
+#Main-footer>ul{ 
+    list-style: none; /*quitar los puntos de la lista */
+    padding-top: 20px;
+    padding-left: 100px;
+}
+#Main-footer>ul>li{
+    margin-top: 1px;
+}
