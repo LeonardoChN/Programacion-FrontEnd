@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./JS/main.js"></script>
+</head>
+<body>
+    <h1>Mostrar usuarios en alertas</h1>
+    <input type="button" value="mostrar usuarios" onclick="getUsers()">
+    <input type="button" value="mostrar usuarios destructurados" onclick="getUsersDestructuring()">
+    <br>
+    <br>
+    <h2>Mostrar datos en una tabla</h2>
+    <p><h4> LISTA DE USUARIOS</h4></p>
+    <input type="button" value="Crear tabla" onclick="getUsers1()">
+    <br><br> <!-- Aca pondremos la tabla creada desde JS-->
+    <div id="userTable"></div>
+    <br><br>
+    <h2>Creacion de formulario</h2>
+    <form action="">
+    <input type="text" name="email" id="email" placeholder="Ingresar email">
+    <input type="text" name="firstName" id="firstName" placeholder="Ingresar nombre">
+    <input type="text" name="lastName" id="lastName" placeholder="Ingresar apellido">
+    <input type="button" value="add" class="btn" onclick="addUser(email.value,firstName.value,lastName.value)">
+    </form>
+</body>
+</html>
