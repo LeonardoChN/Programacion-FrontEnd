@@ -51,11 +51,3 @@ const addUser = (email,firstName,lastName) => { // OJO CON EL IGUAL Y CON LA =>
 
 
 
-/* TAREA 
-LIMPIAR FORMULARIO DESPUES DE QUE SE AGREGE
-BOTON DELETE EN CADA UNO DE LOS REGISTROS (CONFIRM)
-comprobar email si ya esta agregado antes de agregar
-edit boton al lado del delete y que cargue los datos en el form
-deshabilitar el email, solo modificar first name y last name
-
-*/
