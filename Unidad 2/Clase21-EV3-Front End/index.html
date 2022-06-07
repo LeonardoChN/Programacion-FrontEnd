@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <br>
+    <form action="#">
+        <b> Nombre Departamento:  </b>
+        <input type="text" name="search" id="search" placeholder="search">
+        <input type="button" value="Search" class="btn btn-primary btn-sm" onclick="searchButton(search.value)">
+    </form>
+    <br><br>    
+
+    <form action="">
+    <input type="text" name="cod_Dep" id="cod_Dep" placeholder="Ingresar codigo de departamento" oninput="changeUpper(this)">
+    <input type="text" name="name_Dep" id="name_Dep" placeholder="Ingresar nombre del departamento" oninput="changeUpper(this)">
+    <input type="text" name="num_Dep" id="num_Dep" placeholder="Ingresar numeros de empleados" oninput="changeUpper(this)">
+    <!-- BOTON DE AGREGAR-->
+    <input type="button" class="btn btn-primary" value="ADD" id="save_Button" class="btn btn-secondary" onclick="add_Departments(cod_Dep.value,name_Dep.value,num_Dep.value)">
+    <!-- BOTON DE EDITAR-->
+    <input type="button" class="btn btn-secondary" value="Update" id="update_Button" style="display:none" " class="btn btn-secondary" onclick="update_Departments(cod_Dep.value,name_Dep.value,num_Dep.value)">
+    <br><br>
+    <div id="userTable"></div>
+    <br><br>
+    </form>
+    
+</body>
+</html>
