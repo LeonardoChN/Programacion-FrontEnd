@@ -1,0 +1,25 @@
+INSTALACION DE NODE JS EN SU VERSION LTS
+
+REINICIAR DESPUES DE INSTALAR PARA QUE CARGUE LA VARIABLE DE ENTORNO
+
+npm install , con esto podemos instalar los paquetes
+
+npm instal -g  (esto hace que el paquete se intale globalmente en el pc)
+
+npm install -s (esto instala solo en la carpeta)
+
+npm install --save-dev (esto instala solo para el desarrollo )
+
+
+
+
+en la clase 
+
+node index.js
+
+npm install --save-dev nodemon
+
+en la parte del package.json en la seccion de script agregamos lo siguiente
+
+"start": "nodemon --inspector index.js",
+npm start
