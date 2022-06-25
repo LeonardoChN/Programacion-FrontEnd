@@ -1,0 +1,14 @@
+PRIMERA CLASE DE REACT
+
+CODIGO N1
+npx create-react-app my-app (nota: EL NOMBRE DE LA CARPETA SERA my-app se puede cambiar)
+
+
+para instalar los modulos si no vienen en la carpeta (ejemplo si lo bajamos de github)
+npm install
+
+
+build (el build sirve para trasnformar el codigo de react a js )
+npm run buid
+
+

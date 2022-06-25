@@ -1,0 +1,40 @@
+-- crear Proyecto en react -- 
+
+(ojo con el nombre de la carpeta que da error)
+
+npx create-react-app [NOMBRE DEL PROYECTO] // o un .
+
+
+[PARENTESIS DE LA CLASE]
+
+(reboot.studio/blog/es/estructuras-organizar-proyecto-react/)
+spa: single page application
+DRY: Don't repeat yourself (no repetir codigo)
+DDD: domamain-driven desing (patron de inyeccion de dependencia)
+Leer sobre de patron de diseño: Inyeccion de dependencia y singleton
+servicios: representa los casos de usos {crear un servicio (relacionado a una historia de ususario)}
+
+[FIN PARENTESIS]
+
+--- CARPETAS DEL PROYECTO ---
+node modules : carpeta en donde se instalan los modulos o paquetes 
+public: genera la base inicial del proyecto (pagina del proyecto)
+src: Sources
+
+package.json: comandos del proyecto
+	para correr (ir a script)
+	npm run start
+	
+<> react element (ojo que solo sirve una etiqueta si tenemos 2 no sirve)
+modificacion en la carpeta src/app
+
+
+
+SI SE BORRA LA CARPETA NODE_MODULES SE PUEDE INSTALAR LOS MODULOS CON EL COMANDO
+npm install
+
+
+
+
+
+
